@@ -35,10 +35,9 @@ module.exports = () => {
         public_path: './',
         icons: [
           {
-            // not entirely sure if I am going to need this or not yet but figured I would put it in here
-            // src: ,
-            // sizes: ,
-            // destination: ,
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96],
+            destination: path.join('assets', 'icons'),
           }
         ]
       }),
